@@ -1,0 +1,126 @@
+* {
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 5px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.head {
+  grid-column: 1;
+  grid-row: 1/2;
+  background-color: rgb(121, 120, 122);
+}
+
+.body {
+  grid-column: 1;
+  grid-row: 2/5;
+  background-color: rgb(167, 165, 172);
+}
+
+.main {
+  grid-column: 2/4;
+  grid-row: 1/5;
+  background-color: rgb(223, 220, 226);
+}
+
+.picture-box {
+  position: absolute;
+  top: 13%;
+  left: 7%;
+  width: 170px;
+  height: 200px;
+  background: white;
+}
+
+.profile {
+  height: 40%;
+  margin-bottom: 2px;
+  text-align: left;
+}
+
+.profile-name {
+  font-size: 30px;
+  font-weight: bold;
+  height: 50%;
+}
+
+.profile-age {
+  font-size: 20px;
+  color: rgba(236, 216, 191, 0.597);
+  height: 50%;
+}
+
+.infostatus {
+  font-size: 14pt;
+  color: black;
+  height: 20px;
+}
+
+.icon-size {
+  width: 27px;
+  height: 20px;
+}
+
+.side-list {
+  margin-top: 50%;
+  margin-left: -12%;
+  font-size: 14pt;
+  color: honeydew;
+  font-size: 15pt;
+  height: 40px;
+  font-weight: bold;
+}
+
+.main-block {
+  width: 85%;
+  height: 30%;
+  margin-top: 30px;
+  /* background-color: aqua; */
+  /* float: left; */
+  margin-left: 6%;
+}
+
+.main-seperate {
+  margin: 5% 0 0 10%;
+  width: 75%;
+  height: 30px;
+  border-radius: 3px;
+  border-bottom: 5px solid rgba(120, 111, 111, 0.423);
+  float: left;
+}
+
+.main-title {
+  font-size: 20pt;
+  font-weight: bold;
+  color: rgb(60, 59, 59);
+}
+
+.main-list {
+  margin-top: 6%;
+  font-size: 15pt;
+  color: cornsilk;
+  height: 30px;
+}
+
+.main-li-type {
+  list-style-type: "✔️";
+  padding-inline-start: 1ch;
+  margin-left: 6%;
+  color: rgb(60, 59, 59);
+  height: 50px;
+}
+
+.main-li-under {
+  height: 30px;
+}
+
+.main-li-inner {
+  margin-top: 3px;
+  height: 35px;
+}

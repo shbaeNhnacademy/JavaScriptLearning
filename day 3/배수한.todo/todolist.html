@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>To Do list</title>
+    <link rel="stylesheet" href="./todo.css" />
+    <script src="todo.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="title">To Do List</div>
+      <div class="formDiv">
+        <form class="todoForm">
+          <div class="inputPocket">
+            <input name="select_date" class="todoDate boxBorder" type="date" required />
+            <label class="todoLabel" for="_combo">선택</label>
+            <select name="select_cate" class="todoCombo boxBorder" id="_combo">
+              <option>회사</option>
+              <option selected>개인</option>
+            </select>
+            <input
+              name="todo"
+              class="todoText boxBorder"
+              id="_text"
+              type="text"
+              placeholder="할 일 입력"
+              required
+            />
+            <button class="todoSubmit boxBorder" type="submit">저장</button>
+            <button id="todoRemove" class="todoRemove boxBorder" type="button">
+              해당 월 데이터 삭제
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="checkDiv">
+        <label class="labelCheck"
+          ><input id="workCheck" type="checkbox" value="work" checked /> 회사</label
+        >
+        <label class="labelCheck"
+          ><input id="ownCheck" type="checkbox" value="own" checked /> 개인</label
+        >
+      </div>
+
+      <div class="month">
+        <div class="sector"><a id="preMon" href="#">이전 달</a></div>
+        <div class="sector"><p id="nowMon">2021년 3월</p></div>
+        <div class="sector"><a id="nextMon" href="#">다음 달</a></div>
+      </div>
+    </header>
+    <main>
+      <!-- <hr /> -->
+    </main>
+  </body>
+</html>
