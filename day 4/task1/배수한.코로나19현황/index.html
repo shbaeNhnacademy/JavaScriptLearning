@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>코로나 19 국내 감염 현황</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- 타이틀 : 감염 현황  -->
+      <div id="title">코로나 19 현황</div>
+      <div class="preMonD"><a id="preMon" href="#">이전 달</a></div>
+      <div class="nextMonD"><a id="nextMon" href="#">다음 달</a></div>
+    </header>
+    <footer id="footer">
+      <!-- <canvas id="myChart"></canvas> -->
+    </footer>
+    <main>
+      <!-- table 사용해서 기준일 / 누적 확진자 / 누적 사망자 / 업데이트 시기 draw -->
+      <div class="tableGuide">
+        <table id="table"></table>
+      </div>
+    </main>
+  </body>
+</html>

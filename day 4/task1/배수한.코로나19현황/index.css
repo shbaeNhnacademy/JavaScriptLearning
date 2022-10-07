@@ -1,0 +1,104 @@
+* {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 10%;
+}
+main {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  width: 100%;
+  height: 50%;
+  /* border: 1px solid black; */
+  margin-top: 5%;
+  padding: 20px;
+}
+
+#title {
+  width: 40%;
+  height: 100%;
+
+  font-size: 32pt;
+  font-weight: bold;
+  padding: 15px 20px;
+  float: left;
+}
+
+.preMonD {
+  width: 30%;
+  height: 100%;
+  float: left;
+  font-size: 30pt;
+}
+
+.nextMonD {
+  width: 30%;
+  height: 100%;
+  float: left;
+  font-size: 30pt;
+}
+
+#preMon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nextMon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tableGuide {
+  margin-top: 30px;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+}
+
+#table {
+  border: 1px solid black;
+  text-align: center;
+  width: 80%;
+  height: 100%;
+}
+
+.tableHeader {
+  height: 10%;
+}
+
+.tableHeader > th {
+  border: 1px solid black;
+  width: 20%;
+  height: 20px;
+  background-color: rgb(57, 129, 57);
+}
+.tableHeader > .time {
+  border: 1px solid black;
+  width: 30%;
+  height: 20px;
+}
+
+.tableTr {
+  /* border: 1px solid black;
+  width: 20%; */
+  height: 20px;
+}
+
+.tableTr > td {
+  border: 1px solid black;
+  width: 20%;
+  height: 20px;
+}
+
+#chart_div {
+}
